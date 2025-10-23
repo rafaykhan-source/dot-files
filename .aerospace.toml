@@ -79,6 +79,10 @@ alt-1 = "workspace 1"
 alt-2 = "workspace 2"
 alt-3 = "workspace 3"
 alt-4 = "workspace 4"
+alt-c = [
+  "workspace c",
+  '''exec-and-forget osascript -e 'tell app "com.google.Chrome" to activate' '''
+]
 alt-d = [
   "workspace d",
   '''exec-and-forget osascript -e 'tell app "Discord" to activate' '''
@@ -110,6 +114,7 @@ alt-shift-1 = "move-node-to-workspace 1"
 alt-shift-2 = "move-node-to-workspace 2"
 alt-shift-3 = "move-node-to-workspace 3"
 alt-shift-4 = "move-node-to-workspace 4"
+alt-shift-c = "move-node-to-workspace c"
 alt-shift-d = "move-node-to-workspace d"
 alt-shift-e = "move-node-to-workspace e"
 alt-shift-m = "move-node-to-workspace m"
