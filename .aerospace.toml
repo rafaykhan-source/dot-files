@@ -109,6 +109,9 @@ alt-w = [
   '''exec-and-forget osascript -e 'tell app "Whatsapp" to activate' '''
 ]
 alt-s = "mode service"
+alt-v = [
+  '''exec-and-forget osascript -e 'tell app "Visual Studio Code.app" to activate' '''
+]
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
 alt-shift-1 = "move-node-to-workspace 1"
 alt-shift-2 = "move-node-to-workspace 2"
@@ -158,3 +161,9 @@ run = ["move-node-to-workspace e"]
 [[on-window-detected]]
 if.app-id = "org.mozilla.librewolf"
 run = ["move-node-to-workspace t"]
+
+[[on-window-detected]]
+if.app-id = "com.mitchellh.ghostty"
+run = [
+  "layout floating",
+]
