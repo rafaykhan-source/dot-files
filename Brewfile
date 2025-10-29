@@ -1,3 +1,8 @@
+brew "gh"
+brew "neovim"
+brew "uv"
+brew "bat"
+
 cask "ghostty"
-cask "nikitabobko/tap/aerospace"
 cask "librewolf"
+cask "nikitabobko/tap/aerospace"
