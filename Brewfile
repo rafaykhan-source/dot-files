@@ -1,7 +1,14 @@
+brew "bash"
 brew "gh"
-brew "neovim"
 brew "uv"
 brew "bat"
+
+brew "neovim"
+brew "luarocks"
+brew "ripgrep"
+brew "fd"
+# brew "node"
+# brew "gcc"
 
 cask "ghostty"
 cask "librewolf"
