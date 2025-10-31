@@ -8,7 +8,7 @@ alias less='less --quit-at-eof --no-init --tabs=4 --RAW-CONTROL-CHARS'
 alias more='less'
 
 # Add colors to 'ls'.
-alias ls='ls -GF'
+alias ls='lsd'
 alias lla='ls -la'
 alias ll='ls -lG'
 
