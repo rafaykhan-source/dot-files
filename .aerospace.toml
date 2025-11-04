@@ -162,8 +162,3 @@ run = ["move-node-to-workspace e"]
 if.app-id = "org.mozilla.librewolf"
 run = ["move-node-to-workspace t"]
 
-[[on-window-detected]]
-if.app-id = "com.mitchellh.ghostty"
-run = [
-  "layout floating",
-]
