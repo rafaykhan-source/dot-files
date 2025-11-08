@@ -91,6 +91,10 @@ alt-e = [
   "workspace e",
   '''exec-and-forget osascript -e 'tell app "Discord PTB" to activate' '''
 ]
+alt-i = [
+  "workspace i",
+  '''exec-and-forget osascript -e 'tell app "iPhone Mirroring.app" to activate' '''
+]
 alt-f = ['''exec-and-forget osascript -e 'tell app "Firefox" to activate' ''']
 alt-g = ['''exec-and-forget osascript -e 'tell app "Ghostty" to activate' ''']
 alt-m = [
@@ -120,6 +124,7 @@ alt-shift-4 = "move-node-to-workspace 4"
 alt-shift-c = "move-node-to-workspace c"
 alt-shift-d = "move-node-to-workspace d"
 alt-shift-e = "move-node-to-workspace e"
+alt-shift-i = "move-node-to-workspace i"
 alt-shift-m = "move-node-to-workspace m"
 alt-shift-n = "move-node-to-workspace n"
 alt-shift-t = "move-node-to-workspace t"
@@ -151,6 +156,10 @@ if.app-id = "net.whatsapp.WhatsApp"
 run = ["move-node-to-workspace w"]
 
 [[on-window-detected]]
+if.app-id = "com.apple.ScreenContinuity"
+run = ["move-node-to-workspace i"]
+
+[[on-window-detected]]
 if.app-id = "com.hnc.Discord"
 run = ["move-node-to-workspace d"]
 
@@ -162,3 +171,8 @@ run = ["move-node-to-workspace e"]
 if.app-id = "org.mozilla.librewolf"
 run = ["move-node-to-workspace t"]
 
+[[on-window-detected]]
+if.app-id="com.mitchellh.ghostty"
+run= [
+  "layout floating",
+]
