@@ -14,7 +14,7 @@ brew "fd"
 # brew "gcc"
 
 cask "ghostty"
-cask "librewolf"
+cask "mactex"
 cask "nikitabobko/tap/aerospace"
 cask "syncthing"
-
+# cask "librewolf"
