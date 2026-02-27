@@ -1,0 +1,25 @@
+[user]
+	name = Rafay K
+	email = 82721722+rafaykhan-source@users.noreply.github.com
+[core]
+	editor = nvim
+	excludesFile = ~/.gitignore
+[init]
+	defaultBranch = main
+[alias]
+	a = add
+	d = diff
+	st = status
+	dt = difftool
+	c = commit
+	f = fetch
+	m = merge
+	br = branch
+	co = checkout
+	rb = rebase
+	cp = cherry-pick
+	wt = worktree
+[push]
+	autoSetupRemote = true
+[diff]
+	tool = nvimdiff

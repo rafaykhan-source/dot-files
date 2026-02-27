@@ -1,0 +1,67 @@
+# Command Line Tools
+brew "fastfetch"
+brew "bash"
+# brew "bash-completion@2"
+brew "zoxide"
+brew "zsh"
+brew "fzf"
+brew "tmux"
+brew "starship"
+brew "bat"
+brew "lsd"
+brew "gh"
+brew "lazygit"
+
+# Language Management
+brew "docker"
+brew "oven-sh/bun/bun"
+brew "node"
+brew "uv"
+brew "luarocks"
+brew "typst"
+
+# iTerm Setup
+cask "iterm2"
+cask "font-jetbrains-mono-nerd-font"
+
+# IDE + Editors
+cask "vscodium"
+brew "neovim"
+brew "ripgrep"
+brew "fd"
+brew "imagemagick"
+brew "ffmpeg"
+brew "anomalyco/tap/opencode"
+
+# Desktop Applications
+# cask "firefox"
+cask "google-chrome"
+cask "mullvad-browser"
+# cask "librewolf"
+cask "docker-desktop"
+cask "ghostty"
+cask "nikitabobko/tap/aerospace"
+cask "raycast"
+cask "grandperspective"
+cask "syncthing-app"
+cask "vlc"
+cask "discord"
+cask "discord@ptb"
+cask "whatsapp"
+cask "signal"
+cask "breaktimer"
+
+cask "obs"
+cask "audacity"
+cask "slack"
+cask "zoom"
+
+# LSPs, Formatters, Linters
+brew "lua-language-server"
+brew "marksman"
+brew "shellcheck"
+brew "typstyle"
+brew "yazi"
+brew "poppler"
+brew "hledger"
+cask "lulu"
