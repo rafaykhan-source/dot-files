@@ -20,9 +20,7 @@ brew "uv"
 brew "luarocks"
 brew "typst"
 
-# iTerm Setup
-cask "iterm2"
-cask "font-jetbrains-mono-nerd-font"
+# cask "font-jetbrains-mono-nerd-font"
 
 # IDE + Editors
 cask "vscodium"
@@ -65,3 +63,4 @@ brew "yazi"
 brew "poppler"
 brew "hledger"
 cask "lulu"
+cask "wezterm"

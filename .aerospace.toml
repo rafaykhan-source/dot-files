@@ -117,7 +117,7 @@ alt-s = [
 ]
 alt-t = [
   "workspace t",
-  '''exec-and-forget osascript -e 'tell app "iTerm.app" to activate' ''',
+  '''exec-and-forget osascript -e 'tell app "wezTerm.app" to activate' ''',
 ]
 alt-g = [
   "workspace g",
@@ -175,7 +175,7 @@ f = [
 ] # Toggle between floating and tiling layout
 w = [
   '''exec-and-forget osascript -e 'tell app "Discord.app" to activate' ''',
-  '''exec-and-forget osascript -e 'tell app "iTerm.app" to activate' ''',
+  '''exec-and-forget osascript -e 'tell app "wezTerm.app" to activate' ''',
   "workspace s",
   '''exec-and-forget /Applications/Firefox.app/Contents/MacOS/firefox -P "Work" ''',
   "mode main",
@@ -249,7 +249,7 @@ if.app-id = "com.hnc.Discord"
 run = ["move-node-to-workspace s"]
 
 [[on-window-detected]]
-if.app-id = "com.googlecode.iterm2"
+if.app-id = "com.github.wez.wezterm"
 run = ["move-node-to-workspace t"]
 
 [[on-window-detected]]
