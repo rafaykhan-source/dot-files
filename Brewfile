@@ -1,66 +1,72 @@
+# Shells
+
+# Development
+brew "tmux"
+brew "gh"
+
 # Command Line Tools
 brew "fastfetch"
-brew "bash"
-# brew "bash-completion@2"
 brew "zoxide"
-brew "zsh"
 brew "fzf"
-brew "tmux"
 brew "starship"
 brew "bat"
 brew "lsd"
-brew "gh"
-brew "lazygit"
+# brew "yazi"
+# brew "poppler"
 
 # Language Management
-brew "docker"
 brew "oven-sh/bun/bun"
 brew "node"
 brew "uv"
 brew "luarocks"
-brew "typst"
+brew "rustup"
 
-# cask "font-jetbrains-mono-nerd-font"
+# Typst
+brew "typst"
+brew "tinymist"
+brew "typstyle"
+
 
 # IDE + Editors
-cask "vscodium"
+# cask "vscodium"
 brew "neovim"
 brew "ripgrep"
-brew "fd"
-brew "imagemagick"
-brew "ffmpeg"
-brew "anomalyco/tap/opencode"
+# brew "fd"
+# brew "imagemagick"
+# brew "ffmpeg"
+# brew "anomalyco/tap/opencode"
 
 # Desktop Applications
-# cask "firefox"
-cask "google-chrome"
-cask "mullvad-browser"
+cask "firefox"
+# cask "google-chrome"
+# cask "mullvad-browser"
 # cask "librewolf"
 cask "docker-desktop"
 cask "ghostty"
+cask "wezterm"
 cask "nikitabobko/tap/aerospace"
-cask "raycast"
-cask "grandperspective"
-cask "syncthing-app"
+# cask "raycast"
+# cask "grandperspective"
+# cask "syncthing-app"
 cask "vlc"
 cask "discord"
 cask "discord@ptb"
 cask "whatsapp"
 cask "signal"
-cask "breaktimer"
+# cask "breaktimer"
+cask "mozilla-vpn"
 
-cask "obs"
-cask "audacity"
-cask "slack"
-cask "zoom"
+# cask "obs"
+# cask "audacity"
+# cask "slack"
+# cask "zoom"
 
-# LSPs, Formatters, Linters
+# # LSPs, Formatters, Linters
 brew "lua-language-server"
+brew "stylua"
 brew "marksman"
 brew "shellcheck"
-brew "typstyle"
-brew "yazi"
-brew "poppler"
-brew "hledger"
-cask "lulu"
-cask "wezterm"
+
+
+# brew "hledger"
+# cask "lulu"
