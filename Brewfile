@@ -1,72 +1,78 @@
-# Shells
+# Trusted Taps
+# brew trust "oven-sh/bun"
+# brew trust "anomalyco/tap"
+# brew trust "nikitabobko/tap"
 
-# Development
+# Development Tools
 brew "tmux"
 brew "gh"
-
-# Command Line Tools
 brew "fastfetch"
 brew "zoxide"
 brew "fzf"
 brew "starship"
 brew "bat"
 brew "lsd"
-# brew "yazi"
-# brew "poppler"
+brew "ripgrep"
 
 # Language Management
+tap "oven-sh/bun"
 brew "oven-sh/bun/bun"
-brew "node"
 brew "uv"
+brew "node"
 brew "luarocks"
 brew "rustup"
+brew "postgresql@15"
 
 # Typst
 brew "typst"
 brew "tinymist"
 brew "typstyle"
 
-
 # IDE + Editors
-# cask "vscodium"
+cask "visual-studio-code"
 brew "neovim"
-brew "ripgrep"
-# brew "fd"
-# brew "imagemagick"
-# brew "ffmpeg"
-# brew "anomalyco/tap/opencode"
+brew "ollama"
+tap "anomalyco/tap"
+brew "anomalyco/tap/opencode"
 
 # Desktop Applications
+cask "google-chrome"
 cask "firefox"
-# cask "google-chrome"
-# cask "mullvad-browser"
-# cask "librewolf"
 cask "docker-desktop"
 cask "ghostty"
-cask "wezterm"
+tap "nikitabobko/tap"
 cask "nikitabobko/tap/aerospace"
-# cask "raycast"
-# cask "grandperspective"
-# cask "syncthing-app"
+cask "raycast"
 cask "vlc"
 cask "discord"
 cask "discord@ptb"
 cask "whatsapp"
 cask "signal"
-# cask "breaktimer"
-cask "mozilla-vpn"
-
-# cask "obs"
+cask "breaktimer"
+cask "obs"
 # cask "audacity"
-# cask "slack"
+cask "slack"
 # cask "zoom"
 
-# # LSPs, Formatters, Linters
+# LSPs, Formatters, Linters
 brew "lua-language-server"
 brew "stylua"
 brew "marksman"
 brew "shellcheck"
 
+# Python Tooling
+uv "rumdl"
+uv "ruff"
+uv "prek"
+uv "codespell"
+uv "ty"
 
-# brew "hledger"
-# cask "lulu"
+# VSCode
+vscode "charliermarsh.ruff"
+vscode "esbenp.prettier-vscode"
+vscode "mechatroner.rainbow-csv"
+vscode "bradlc.vscode-tailwindcss"
+vscode "vscodevim.vim"
+
+# Personal
+brew "hledger"

@@ -8,7 +8,7 @@ unsetopt autocd
 source ~/.bash_aliases
 
 # Path Modifications
-source ~/.bash_paths
+# source ~/.bash_paths
 
 # Extra
 source <(fzf --zsh)

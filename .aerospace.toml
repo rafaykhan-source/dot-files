@@ -90,7 +90,7 @@ alt-d = [
   '''exec-and-forget osascript -e 'tell app "Discord PTB.app" to activate' ''',
 ]
 alt-f = [
-  '''exec-and-forget /Applications/Firefox.app/Contents/MacOS/firefox -P "Career" ''',
+  '''exec-and-forget osascript -e 'tell app "Firefox.app" to activate' ''',
 ]
 alt-i = [
   "workspace i",
@@ -113,7 +113,7 @@ alt-r = [
 ]
 alt-s = [
   "workspace s",
-  '''exec-and-forget osascript -e 'tell app "Discord.app" to activate' ''',
+  '''exec-and-forget osascript -e 'tell app "Slack.app" to activate' ''',
 ]
 alt-t = [
   "workspace t",
@@ -174,40 +174,16 @@ f = [
   "mode main",
 ] # Toggle between floating and tiling layout
 w = [
-  '''exec-and-forget osascript -e 'tell app "Discord.app" to activate' ''',
-  '''exec-and-forget osascript -e 'tell app "wezTerm.app" to activate' ''',
+  '''exec-and-forget osascript -e 'tell app "Slack.app" to activate' ''',
+  '''exec-and-forget osascript -e 'tell app "Ghostty.app" to activate' ''',
   "workspace s",
-  '''exec-and-forget /Applications/Firefox.app/Contents/MacOS/firefox -P "Work" ''',
+  '''exec-and-forget osascript -e 'tell app "Firefox.app" to activate' ''',
   "mode main",
 
 ]
 
 [mode.browser.binding]
 esc = "mode main"
-b = [
-  '''exec-and-forget /Applications/Firefox.app/Contents/MacOS/firefox -P "Core" ''',
-  "mode main",
-]
-w = [
-  '''exec-and-forget /Applications/Firefox.app/Contents/MacOS/firefox -P "Work" ''',
-  "mode main",
-]
-c = [
-  '''exec-and-forget /Applications/Firefox.app/Contents/MacOS/firefox -P "Career" ''',
-  "mode main",
-]
-p = [
-  '''exec-and-forget /Applications/Firefox.app/Contents/MacOS/firefox -P "Personal" ''',
-  "mode main",
-]
-s = [
-  '''exec-and-forget /Applications/Firefox.app/Contents/MacOS/firefox -P "Alumnus" ''',
-  "mode main",
-]
-f = [
-  '''exec-and-forget /Applications/Firefox.app/Contents/MacOS/firefox -P "Finance" ''',
-  "mode main",
-]
 g = [
   "workspace c",
   '''exec-and-forget osascript -e 'tell app "Google Chrome.app" to activate' ''',
@@ -216,6 +192,10 @@ g = [
 m = [
   "workspace m",
   '''exec-and-forget osascript -e 'tell app "Mullvad Browser.app" to activate' ''',
+  "mode main",
+]
+l = [
+  '''exec-and-forget osascript -e 'tell app "LibreWolf.app" to activate' ''',
   "mode main",
 ]
 
@@ -245,7 +225,7 @@ if.app-id = "com.apple.ScreenContinuity"
 run = ["move-node-to-workspace i"]
 
 [[on-window-detected]]
-if.app-id = "com.hnc.Discord"
+if.app-id = "com.tinyspeck.slackmacgap"
 run = ["move-node-to-workspace s"]
 
 [[on-window-detected]]
