@@ -2,7 +2,7 @@
 # brew trust "oven-sh/bun"
 # brew trust "anomalyco/tap"
 # brew trust "nikitabobko/tap"
-
+#
 # Development Tools
 brew "tmux"
 brew "gh"
@@ -42,13 +42,13 @@ cask "docker-desktop"
 cask "ghostty"
 tap "nikitabobko/tap"
 cask "nikitabobko/tap/aerospace"
+cask "openwhispr"
 cask "raycast"
 cask "vlc"
 cask "discord"
 cask "discord@ptb"
 cask "whatsapp"
 cask "signal"
-cask "breaktimer"
 cask "obs"
 # cask "audacity"
 cask "slack"
@@ -58,7 +58,7 @@ cask "slack"
 brew "lua-language-server"
 brew "stylua"
 brew "marksman"
-brew "shellcheck"
+brew "taplo"
 
 # Python Tooling
 uv "rumdl"
@@ -66,6 +66,14 @@ uv "ruff"
 uv "prek"
 uv "codespell"
 uv "ty"
+
+# Node Tooling
+npm "bash-language-server"
+npm "typescript"
+npm "typescript-language-server"
+npm "vscode-langservers-extracted"
+npm "@tailwindcss/language-server"
+npm "svelte-language-server"
 
 # VSCode
 vscode "charliermarsh.ruff"
@@ -76,3 +84,4 @@ vscode "vscodevim.vim"
 
 # Personal
 brew "hledger"
+
