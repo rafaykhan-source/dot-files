@@ -23,10 +23,6 @@ brew "luarocks"
 brew "rustup"
 brew "postgresql@15"
 
-# Typst
-brew "typst"
-brew "tinymist"
-brew "typstyle"
 
 # IDE + Editors
 cask "visual-studio-code"
@@ -56,24 +52,28 @@ cask "slack"
 
 # LSPs, Formatters, Linters
 brew "lua-language-server"
-brew "stylua"
 brew "marksman"
 brew "taplo"
 
-# Python Tooling
 uv "rumdl"
 uv "ruff"
 uv "prek"
 uv "codespell"
 uv "ty"
 
-# Node Tooling
 npm "bash-language-server"
 npm "typescript"
 npm "typescript-language-server"
 npm "vscode-langservers-extracted"
 npm "@tailwindcss/language-server"
 npm "svelte-language-server"
+
+cargo "stylua"
+
+# Typst
+brew "typst"
+brew "tinymist"
+brew "typstyle"
 
 # VSCode
 vscode "charliermarsh.ruff"
