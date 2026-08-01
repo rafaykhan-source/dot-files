@@ -16,9 +16,6 @@ alias cat='bat --paging=never'
 # Add color to 'grep' and relatives (when not piped or redirected).
 alias grep='grep --color=auto'
 
-# Make activate semantically consistent with deactivate.
-alias activate='. .venv/bin/activate'
-
 # Extra
 alias g='git'
 alias gl='glab'

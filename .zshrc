@@ -1,3 +1,8 @@
+fpath+=~/.zfunc
+
+autoload -Uz compinit
+compinit
+
 eval "$(starship init zsh)"
 
 setopt histignorealldups
@@ -16,4 +21,5 @@ eval "$(zoxide init zsh)"
 
 
 bindkey -v
-export KEYTIMEOUT=1
+
+export PATH="$(brew --prefix rustup)/bin:$PATH"

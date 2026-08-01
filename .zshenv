@@ -10,3 +10,5 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 export PATH="$PATH:$HOME/.scripts"
 
 export LEDGER_FILE=~/finances/.hledger.journal
+
+export KEYTIMEOUT=1
